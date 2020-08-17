@@ -11,3 +11,9 @@ The crash occurs on line 25 of appmodul.cpp. See below:
 ```
 return AfxWinMain(hInstance, hPrevInstance, lpCmdLine, nCmdShow);
 ```
+
+The error in x86 is 
+
+```
+HEAP[MFCApplication5.exe]: Invalid address specified to RtlValidateHeap( 00830000, 03D039E0 )
+```
